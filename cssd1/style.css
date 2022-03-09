@@ -1,0 +1,84 @@
+
+/* universal selector */
+* {
+    color:red;
+    background-color:lightgreen;
+   }
+/* basic selector */
+#top {
+    background-color: #ccc;
+    padding: 20px
+}
+
+.intro {
+    color: red;
+    font-weight: bold;
+}
+/* attr selector */
+a[target] {
+    background-color: yellow;
+  }
+/* Using pseudo-classes */
+a:link {
+    color: red;
+}
+
+a:visited {
+    color: green;
+}
+a:hover {
+    color: hotpink;
+}
+a:active {
+    color: blue;
+}
+/* pseudo-element */
+p::first-line {
+    color: #ff0000;
+    font-variant: small-caps;
+}
+/* The box model */
+.info {
+    background-color: lightgrey;
+    width: 300px;
+    border: 5px solid green;
+    padding: 50px;
+    margin: 20px;
+}
+/* text  */
+p {
+    color: #ff0000;
+    text-indent: 50px;
+}
+h1 {
+    text-align: center;
+    text-decoration: overline;
+    text-transform: capitalize; 
+    text-shadow: 2px 2px;
+}
+/* font */
+h2 {
+    font-family: "Times New Roman", Times, serif;
+    font-style: italic;
+    font-size: 40px;
+}
+/* color &backgroud */
+#p1 {
+    background-color:rgba(255,0,0,0.3);
+    color: aquamarine;
+}
+#p2 {
+    background-color:rgba(0,255,0,0.3);
+}
+
+/* Specificity */
+#demo {color: blue;}
+.test {color: green;}
+
+/* !important */
+.button {
+    background-color: #8c8c8c !important; 
+    color: white !important;
+    padding: 5px !important;
+    border: 1px solid black !important; 
+  }
